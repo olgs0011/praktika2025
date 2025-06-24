@@ -1,0 +1,1221 @@
+{
+  "id": "https://openalex.org/W2882977614",
+  "doi": "https://doi.org/10.5219/923",
+  "title": "Biochemical composition of sweet cherry (Prynus avium L.) fruit depending on the scion-stock combinations",
+  "display_name": "Biochemical composition of sweet cherry (Prynus avium L.) fruit depending on the scion-stock combinations",
+  "publication_year": 2018,
+  "publication_date": "2018-07-11",
+  "ids": {
+    "openalex": "https://openalex.org/W2882977614",
+    "doi": "https://doi.org/10.5219/923",
+    "mag": "2882977614"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5219/923",
+    "pdf_url": "https://www.potravinarstvo.com/journal1/index.php/potravinarstvo/article/download/923/pdf",
+    "source": {
+      "id": "https://openalex.org/S131208185",
+      "display_name": "Potravinarstvo Slovak Journal of Food Sciences",
+      "issn_l": "1337-0960",
+      "issn": [
+        "1337-0960",
+        "1338-0230"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310314457",
+      "host_organization_name": "HACCP Consulting",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310314457"
+      ],
+      "host_organization_lineage_names": [
+        "HACCP Consulting"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.potravinarstvo.com/journal1/index.php/potravinarstvo/article/download/923/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054673987",
+        "display_name": "G. Yu. Upadysheva",
+        "orcid": "https://orcid.org/0000-0002-9547-9178"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Galina Upadysheva",
+      "raw_affiliation_strings": [
+        "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058292380",
+        "display_name": "Svetlana Motyleva",
+        "orcid": "https://orcid.org/0000-0003-3399-1958"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Svetlana Motyleva",
+      "raw_affiliation_strings": [
+        "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035223281",
+        "display_name": "\u0418. \u041c. \u041a\u0443\u043b\u0438\u043a\u043e\u0432",
+        "orcid": "https://orcid.org/0000-0001-6843-4866"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ivan Kulikov",
+      "raw_affiliation_strings": [
+        "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108657758",
+        "display_name": "\u0421. \u041c. \u041c\u0435\u0434\u0432\u0435\u0434\u0435\u0432",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergei Medvedev",
+      "raw_affiliation_strings": [
+        "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5103813407",
+        "display_name": "Mariia Mertvishcheva",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mariia Mertvishcheva",
+      "raw_affiliation_strings": [
+        "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal State Budgetary Scientific Institution \u201cAll-Russian Horticultural Institute for Scioning, Agrotechnology and Nursery\u201c, Zagorevskaj 4, 115598 Moscow",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 0.59,
+  "has_fulltext": false,
+  "cited_by_count": 9,
+  "citation_normalized_percentile": {
+    "value": 0.486438,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 84,
+    "max": 85
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "1",
+    "first_page": "533",
+    "last_page": "538"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10035",
+    "display_name": "Phytochemicals and Antioxidant Activities",
+    "score": 0.9985,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2704",
+      "display_name": "Biochemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10035",
+      "display_name": "Phytochemicals and Antioxidant Activities",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2704",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11796",
+      "display_name": "Horticultural and Viticultural Research",
+      "score": 0.9977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13238",
+      "display_name": "Botanical Studies and Applications",
+      "score": 0.995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C27406016",
+      "wikidata": "https://www.wikidata.org/wiki/Q17216",
+      "display_name": "Rootstock",
+      "level": 2,
+      "score": 0.7547088
+    },
+    {
+      "id": "https://openalex.org/C2779692143",
+      "wikidata": "https://www.wikidata.org/wiki/Q190545",
+      "display_name": "Prunus",
+      "level": 2,
+      "score": 0.722039
+    },
+    {
+      "id": "https://openalex.org/C2986274086",
+      "wikidata": "https://www.wikidata.org/wiki/Q199678",
+      "display_name": "Ascorbic acid",
+      "level": 2,
+      "score": 0.59545463
+    },
+    {
+      "id": "https://openalex.org/C144027150",
+      "wikidata": "https://www.wikidata.org/wiki/Q48803",
+      "display_name": "Horticulture",
+      "level": 1,
+      "score": 0.5806769
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.48083314
+    },
+    {
+      "id": "https://openalex.org/C2779276392",
+      "wikidata": "https://www.wikidata.org/wiki/Q904653",
+      "display_name": "Fruit tree",
+      "level": 2,
+      "score": 0.46044028
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.38229865
+    },
+    {
+      "id": "https://openalex.org/C31903555",
+      "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+      "display_name": "Food science",
+      "level": 1,
+      "score": 0.36322373
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.33512452
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5219/923",
+      "pdf_url": "https://www.potravinarstvo.com/journal1/index.php/potravinarstvo/article/download/923/pdf",
+      "source": {
+        "id": "https://openalex.org/S131208185",
+        "display_name": "Potravinarstvo Slovak Journal of Food Sciences",
+        "issn_l": "1337-0960",
+        "issn": [
+          "1337-0960",
+          "1338-0230"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310314457",
+        "host_organization_name": "HACCP Consulting",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310314457"
+        ],
+        "host_organization_lineage_names": [
+          "HACCP Consulting"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/25be9ba56bc4484b98cadbb8bf2dc4bc",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5219/923",
+    "pdf_url": "https://www.potravinarstvo.com/journal1/index.php/potravinarstvo/article/download/923/pdf",
+    "source": {
+      "id": "https://openalex.org/S131208185",
+      "display_name": "Potravinarstvo Slovak Journal of Food Sciences",
+      "issn_l": "1337-0960",
+      "issn": [
+        "1337-0960",
+        "1338-0230"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310314457",
+      "host_organization_name": "HACCP Consulting",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310314457"
+      ],
+      "host_organization_lineage_names": [
+        "HACCP Consulting"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 11,
+  "referenced_works": [
+    "https://openalex.org/W1971826881",
+    "https://openalex.org/W2005600127",
+    "https://openalex.org/W2034742746",
+    "https://openalex.org/W2046449188",
+    "https://openalex.org/W2095414868",
+    "https://openalex.org/W2105380110",
+    "https://openalex.org/W2119912258",
+    "https://openalex.org/W2125299541",
+    "https://openalex.org/W2140230248",
+    "https://openalex.org/W2551297439",
+    "https://openalex.org/W4238778040"
+  ],
+  "related_works": [
+    "https://openalex.org/W4242122457",
+    "https://openalex.org/W2777682138",
+    "https://openalex.org/W2340644120",
+    "https://openalex.org/W2320393442",
+    "https://openalex.org/W2093094895",
+    "https://openalex.org/W2090420317",
+    "https://openalex.org/W2087350058",
+    "https://openalex.org/W1989438036",
+    "https://openalex.org/W198545930",
+    "https://openalex.org/W1527943323"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      71,
+      90,
+      114,
+      189,
+      213,
+      238,
+      254,
+      273,
+      301,
+      327
+    ],
+    "results": [
+      1,
+      160,
+      191
+    ],
+    "of": [
+      2,
+      8,
+      73,
+      132,
+      163,
+      262
+    ],
+    "the": [
+      3,
+      35,
+      40,
+      53,
+      74,
+      77,
+      81,
+      85,
+      102,
+      120,
+      130,
+      133,
+      136,
+      142,
+      146,
+      158,
+      161,
+      169,
+      194,
+      198,
+      220,
+      242,
+      248,
+      260,
+      278,
+      290,
+      309,
+      312,
+      315,
+      319,
+      324,
+      343
+    ],
+    "field": [
+      4
+    ],
+    "and": [
+      5,
+      39,
+      52,
+      66,
+      84,
+      99,
+      126,
+      173,
+      211,
+      222,
+      268,
+      340
+    ],
+    "biochemical": [
+      6,
+      55,
+      79
+    ],
+    "researches": [
+      7
+    ],
+    "sweet": [
+      9,
+      91,
+      170,
+      243,
+      279,
+      328
+    ],
+    "cherry": [
+      10,
+      244,
+      280,
+      329
+    ],
+    "Prunus": [
+      11
+    ],
+    "avium": [
+      12
+    ],
+    "L.": [
+      13
+    ],
+    "scion": [
+      14,
+      164,
+      204
+    ],
+    "Chermashnaya": [
+      15,
+      165,
+      205
+    ],
+    "fruit": [
+      16,
+      36,
+      42,
+      47,
+      78,
+      86,
+      116,
+      137,
+      162,
+      245,
+      281,
+      310,
+      330
+    ],
+    "grown": [
+      17
+    ],
+    "on": [
+      18,
+      76,
+      101,
+      119,
+      145,
+      186,
+      207,
+      219,
+      227,
+      232,
+      264,
+      270,
+      289,
+      314,
+      323
+    ],
+    "8": [
+      19,
+      285
+    ],
+    "clonal": [
+      20
+    ],
+    "stocks": [
+      21,
+      123,
+      208
+    ],
+    "(Kolt,": [
+      22
+    ],
+    "Moskoviya,": [
+      23
+    ],
+    "Izmaylovskiy,": [
+      24,
+      209
+    ],
+    "Stepnoy": [
+      25,
+      154,
+      265,
+      317
+    ],
+    "rodnik,": [
+      26,
+      318
+    ],
+    "AVCH-2,": [
+      27
+    ],
+    "VSL-2,": [
+      28,
+      124
+    ],
+    "VTS-13,": [
+      29
+    ],
+    "V-5-88)": [
+      30
+    ],
+    "are": [
+      31
+    ],
+    "presented.": [
+      32
+    ],
+    "Trees": [
+      33
+    ],
+    "productivity,": [
+      34
+    ],
+    "average": [
+      37,
+      129,
+      235
+    ],
+    "weight": [
+      38,
+      43,
+      87,
+      138
+    ],
+    "stone-": [
+      41
+    ],
+    "relation": [
+      44
+    ],
+    "were": [
+      45,
+      69,
+      117,
+      166,
+      178,
+      201
+    ],
+    "studied,": [
+      46
+    ],
+    "degustation": [
+      48,
+      159,
+      195
+    ],
+    "evaluation": [
+      49,
+      196
+    ],
+    "was": [
+      50,
+      88,
+      94,
+      139,
+      246,
+      306,
+      337,
+      341
+    ],
+    "fulfilled": [
+      51
+    ],
+    "main": [
+      54
+    ],
+    "parameters": [
+      56,
+      199
+    ],
+    "such": [
+      57
+    ],
+    "as": [
+      58
+    ],
+    "soluble": [
+      59,
+      214
+    ],
+    "solids,": [
+      60
+    ],
+    "sugars": [
+      61,
+      239,
+      255
+    ],
+    "sum,": [
+      62
+    ],
+    "ascorbic": [
+      63,
+      274
+    ],
+    "acid": [
+      64,
+      275
+    ],
+    "concentration": [
+      65
+    ],
+    "antioxidant": [
+      67,
+      331
+    ],
+    "activity": [
+      68,
+      332
+    ],
+    "determined.": [
+      70,
+      89
+    ],
+    "influence": [
+      72
+    ],
+    "stock": [
+      75,
+      103,
+      147,
+      221,
+      291,
+      316,
+      325
+    ],
+    "composition,": [
+      80
+    ],
+    "trees": [
+      82,
+      121
+    ],
+    "productivity": [
+      83,
+      93
+    ],
+    "cherries": [
+      92
+    ],
+    "12,5": [
+      95
+    ],
+    "kg/tree": [
+      96,
+      108,
+      112
+    ],
+    "at": [
+      97,
+      203,
+      234,
+      311
+    ],
+    "average,": [
+      98
+    ],
+    "depending": [
+      100,
+      144
+    ],
+    "it": [
+      104
+    ],
+    "varied": [
+      105,
+      223,
+      294
+    ],
+    "from": [
+      106,
+      148,
+      224,
+      250,
+      295,
+      345
+    ],
+    "8,3": [
+      107
+    ],
+    "(V-5-88)": [
+      109
+    ],
+    "to": [
+      110,
+      151,
+      157,
+      193,
+      229,
+      252,
+      259,
+      297,
+      334,
+      347
+    ],
+    "18,6": [
+      111
+    ],
+    "(Izmaylovskiy).": [
+      113
+    ],
+    "biggest": [
+      115
+    ],
+    "found": [
+      118,
+      180,
+      202,
+      307
+    ],
+    "with": [
+      122,
+      141
+    ],
+    "Izmaylovskiy": [
+      125,
+      271
+    ],
+    "AVCH-2.": [
+      127
+    ],
+    "At": [
+      128
+    ],
+    "proportion": [
+      131
+    ],
+    "stone": [
+      134
+    ],
+    "in": [
+      135,
+      241,
+      277,
+      308,
+      342
+    ],
+    "5.3%": [
+      140
+    ],
+    "variation": [
+      143
+    ],
+    "5.2%": [
+      149
+    ],
+    "(Kolt)": [
+      150
+    ],
+    "5.5%": [
+      152
+    ],
+    "(V-5-88,": [
+      153
+    ],
+    "rodnik).": [
+      155
+    ],
+    "According": [
+      156
+    ],
+    "characterized": [
+      167
+    ],
+    "by": [
+      168,
+      197
+    ],
+    "harmonized": [
+      171
+    ],
+    "taste": [
+      172,
+      182
+    ],
+    "smell": [
+      174
+    ],
+    "(4.5": [
+      175
+    ],
+    "points),": [
+      176
+    ],
+    "there": [
+      177
+    ],
+    "not": [
+      179,
+      283,
+      338
+    ],
+    "either": [
+      181
+    ],
+    "deterioration": [
+      183
+    ],
+    "or": [
+      184
+    ],
+    "bitterness": [
+      185
+    ],
+    "any": [
+      187
+    ],
+    "stock.": [
+      188
+    ],
+    "best": [
+      190
+    ],
+    "according": [
+      192,
+      333
+    ],
+    "complex": [
+      200
+    ],
+    "combinations": [
+      206,
+      261
+    ],
+    "VSL-2": [
+      210
+    ],
+    "Kolt.": [
+      212
+    ],
+    "solids": [
+      215
+    ],
+    "content": [
+      216,
+      240,
+      276,
+      305
+    ],
+    "also": [
+      217
+    ],
+    "depended": [
+      218
+    ],
+    "13.9": [
+      225
+    ],
+    "(Chermashnaya": [
+      226,
+      231
+    ],
+    "AVCH-2)": [
+      228
+    ],
+    "17.2%": [
+      230
+    ],
+    "Izmaylovskiy)": [
+      233
+    ],
+    "value": [
+      236
+    ],
+    "16.0%.": [
+      237
+    ],
+    "within": [
+      247
+    ],
+    "range": [
+      249,
+      344
+    ],
+    "9.0": [
+      251
+    ],
+    "12.4%.": [
+      253
+    ],
+    "higher": [
+      256
+    ],
+    "accumulation": [
+      257
+    ],
+    "belonged": [
+      258
+    ],
+    "Chermashmaya": [
+      263,
+      269
+    ],
+    "rodnik": [
+      266
+    ],
+    "(11.1%)": [
+      267
+    ],
+    "(12.4%).": [
+      272
+    ],
+    "did": [
+      282
+    ],
+    "exceed": [
+      284
+    ],
+    "mg.100": [
+      286,
+      299
+    ],
+    "g-1.": [
+      287,
+      300
+    ],
+    "Depending": [
+      288
+    ],
+    "this": [
+      292
+    ],
+    "parameter": [
+      293
+    ],
+    "5.9": [
+      296
+    ],
+    "9.3": [
+      298
+    ],
+    "highest": [
+      302
+    ],
+    "vitamin": [
+      303
+    ],
+    "C": [
+      304
+    ],
+    "grafting": [
+      313
+    ],
+    "lowest": [
+      320
+    ],
+    "one": [
+      321
+    ],
+    "-": [
+      322
+    ],
+    "Moskoviya.": [
+      326
+    ],
+    "DPPH": [
+      335
+    ],
+    "method": [
+      336
+    ],
+    "high": [
+      339
+    ],
+    "11.8": [
+      346
+    ],
+    "13.8%.": [
+      348
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2882977614",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-19T06:04:20.784441",
+  "created_date": "2018-08-03"
+}

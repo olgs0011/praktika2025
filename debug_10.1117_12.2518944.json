@@ -1,0 +1,714 @@
+{
+  "id": "https://openalex.org/W2943386682",
+  "doi": "https://doi.org/10.1117/12.2518944",
+  "title": "Comparative characteristics of highly sensitive photodetectors for modern lidar systems",
+  "display_name": "Comparative characteristics of highly sensitive photodetectors for modern lidar systems",
+  "publication_year": 2019,
+  "publication_date": "2019-05-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2943386682",
+    "doi": "https://doi.org/10.1117/12.2518944",
+    "mag": "2943386682"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1117/12.2518944",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "proceedings-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5062766010",
+        "display_name": "D. A. Shushakov",
+        "orcid": "https://orcid.org/0000-0001-9583-9279"
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dmitry A. Shushakov",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090544700",
+        "display_name": "\u0421. \u0412. \u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432",
+        "orcid": "https://orcid.org/0000-0002-1975-6997"
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Bogdanov",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059907827",
+        "display_name": "E. V. Levin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Evgeny Levin",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060819125",
+        "display_name": "Y. I. Pozdnyakov",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yury I. Pozdnyakov",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111732466",
+        "display_name": "Vitaly E. Shubin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vitaly E. Shubin",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113879560",
+        "display_name": "Timophey Shpakovskiy",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timophey Shpakovskiy",
+      "raw_affiliation_strings": [
+        "Dephan, LLC (Russian Federation)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dephan, LLC (Russian Federation)",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.705767,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 61,
+    "max": 69
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "34",
+    "last_page": "34"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12153",
+    "display_name": "Advanced Optical Sensing Technologies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3105",
+      "display_name": "Instrumentation"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12153",
+      "display_name": "Advanced Optical Sensing Technologies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13869",
+      "display_name": "Ocular and Laser Science Research",
+      "score": 0.9942,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11637",
+      "display_name": "Advanced Semiconductor Detectors and Materials",
+      "score": 0.9814,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/silicon-photomultiplier",
+      "display_name": "Silicon Photomultiplier",
+      "score": 0.79869354
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C51399673",
+      "wikidata": "https://www.wikidata.org/wiki/Q504027",
+      "display_name": "Lidar",
+      "level": 2,
+      "score": 0.9597949
+    },
+    {
+      "id": "https://openalex.org/C23125352",
+      "wikidata": "https://www.wikidata.org/wiki/Q210765",
+      "display_name": "Photodetector",
+      "level": 2,
+      "score": 0.88420343
+    },
+    {
+      "id": "https://openalex.org/C104335537",
+      "wikidata": "https://www.wikidata.org/wiki/Q1085747",
+      "display_name": "Silicon photomultiplier",
+      "level": 4,
+      "score": 0.79869354
+    },
+    {
+      "id": "https://openalex.org/C94915269",
+      "wikidata": "https://www.wikidata.org/wiki/Q1834857",
+      "display_name": "Detector",
+      "level": 2,
+      "score": 0.64702606
+    },
+    {
+      "id": "https://openalex.org/C21200559",
+      "wikidata": "https://www.wikidata.org/wiki/Q7451068",
+      "display_name": "Sensitivity (control systems)",
+      "level": 2,
+      "score": 0.5912965
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.5855771
+    },
+    {
+      "id": "https://openalex.org/C113879476",
+      "wikidata": "https://www.wikidata.org/wiki/Q61897384",
+      "display_name": "Photomultiplier",
+      "level": 3,
+      "score": 0.5784805
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.37264746
+    },
+    {
+      "id": "https://openalex.org/C49040817",
+      "wikidata": "https://www.wikidata.org/wiki/Q193091",
+      "display_name": "Optoelectronics",
+      "level": 1,
+      "score": 0.35387248
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.342076
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.29027796
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.20645604
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.17424074
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.12708077
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.094038635
+    },
+    {
+      "id": "https://openalex.org/C161694136",
+      "wikidata": "https://www.wikidata.org/wiki/Q910990",
+      "display_name": "Scintillator",
+      "level": 3,
+      "score": 0.06831154
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1117/12.2518944",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "score": 0.85,
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 6,
+  "referenced_works": [
+    "https://openalex.org/W1964060548",
+    "https://openalex.org/W2128365024",
+    "https://openalex.org/W2199079374",
+    "https://openalex.org/W2537979293",
+    "https://openalex.org/W2789585313",
+    "https://openalex.org/W2899827669"
+  ],
+  "related_works": [
+    "https://openalex.org/W3082045444",
+    "https://openalex.org/W2921440212",
+    "https://openalex.org/W2794404576",
+    "https://openalex.org/W2384000497",
+    "https://openalex.org/W2191527367",
+    "https://openalex.org/W2127555349",
+    "https://openalex.org/W2108314163",
+    "https://openalex.org/W2038165008",
+    "https://openalex.org/W1988727626",
+    "https://openalex.org/W1122808991"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "comparative": [
+      1
+    ],
+    "characteristics": [
+      2
+    ],
+    "of": [
+      3,
+      36,
+      40,
+      57
+    ],
+    "highly": [
+      4
+    ],
+    "sensitive": [
+      5
+    ],
+    "photodetectors": [
+      6,
+      41
+    ],
+    "for": [
+      7,
+      17,
+      21,
+      64,
+      84,
+      96
+    ],
+    "modern": [
+      8
+    ],
+    "lidar": [
+      9,
+      27
+    ],
+    "systems,": [
+      10,
+      29
+    ],
+    "like": [
+      11
+    ],
+    "self-driving": [
+      12
+    ],
+    "vehicles": [
+      13
+    ],
+    "and": [
+      14,
+      23,
+      49,
+      73,
+      79
+    ],
+    "autonomous": [
+      15
+    ],
+    "systems": [
+      16
+    ],
+    "collision": [
+      18
+    ],
+    "avoidance,": [
+      19
+    ],
+    "sensors": [
+      20
+    ],
+    "aircraft": [
+      22
+    ],
+    "marine": [
+      24
+    ],
+    "vessels,": [
+      25
+    ],
+    "atmospheric": [
+      26
+    ],
+    "sensing": [
+      28
+    ],
+    "topographic": [
+      30
+    ],
+    "mapping": [
+      31
+    ],
+    "tools": [
+      32
+    ],
+    "are": [
+      33
+    ],
+    "considered.": [
+      34
+    ],
+    "Estimates": [
+      35
+    ],
+    "the": [
+      37,
+      55,
+      65,
+      76,
+      92
+    ],
+    "basic": [
+      38
+    ],
+    "parameters": [
+      39
+    ],
+    "such": [
+      42
+    ],
+    "as": [
+      43,
+      52,
+      54
+    ],
+    "sensitivity": [
+      44,
+      61
+    ],
+    "threshold,": [
+      45
+    ],
+    "dynamic": [
+      46
+    ],
+    "range,": [
+      47
+    ],
+    "time": [
+      48
+    ],
+    "amplitude": [
+      50
+    ],
+    "resolution,": [
+      51
+    ],
+    "well": [
+      53
+    ],
+    "effect": [
+      56
+    ],
+    "background": [
+      58
+    ],
+    "light": [
+      59
+    ],
+    "on": [
+      60
+    ],
+    "were": [
+      62
+    ],
+    "made": [
+      63
+    ],
+    "new-type": [
+      66
+    ],
+    "experimental": [
+      67
+    ],
+    "detector": [
+      68
+    ],
+    "HD-SiPM": [
+      69
+    ],
+    "(high-density": [
+      70
+    ],
+    "silicon": [
+      71
+    ],
+    "photomultiplier)": [
+      72
+    ],
+    "compared": [
+      74
+    ],
+    "with": [
+      75
+    ],
+    "APD": [
+      77
+    ],
+    "module": [
+      78
+    ],
+    "commercial": [
+      80
+    ],
+    "SiPM": [
+      81
+    ],
+    "devices,": [
+      82
+    ],
+    "optimized": [
+      83
+    ],
+    "ToF": [
+      85,
+      100
+    ],
+    "LiDAR": [
+      86,
+      101
+    ],
+    "application.": [
+      87
+    ],
+    "Comparison": [
+      88
+    ],
+    "results": [
+      89
+    ],
+    "show": [
+      90
+    ],
+    "that": [
+      91
+    ],
+    "HDSiPM": [
+      93
+    ],
+    "looks": [
+      94
+    ],
+    "promising": [
+      95
+    ],
+    "application": [
+      97
+    ],
+    "in": [
+      98
+    ],
+    "various": [
+      99
+    ],
+    "systems.": [
+      102
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2943386682",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-23T23:43:01.415567",
+  "created_date": "2019-05-09"
+}

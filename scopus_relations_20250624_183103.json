@@ -1,0 +1,46 @@
+[
+  {
+    "query_id": 1,
+    "query_doi": "10.5219/923",
+    "cites": [],
+    "cited_by": [
+      303227,
+      303233
+    ]
+  },
+  {
+    "query_id": 3,
+    "query_doi": "10.15389/agrobiology.2017.5.1030eng",
+    "cites": [],
+    "cited_by": [
+      314048,
+      314049,
+      314051
+    ]
+  },
+  {
+    "query_id": 4,
+    "query_doi": "10.1063/1.4919211",
+    "cites": [],
+    "cited_by": []
+  },
+  {
+    "query_id": 5,
+    "query_doi": "10.1117/12.2518944",
+    "cites": [
+      7,
+      8,
+      602501
+    ],
+    "cited_by": []
+  },
+  {
+    "query_id": 6,
+    "query_doi": "10.1109/NSSMIC.2018.8824445",
+    "cites": [
+      7,
+      8
+    ],
+    "cited_by": []
+  }
+]

@@ -1,0 +1,794 @@
+{
+  "id": "https://openalex.org/W2768017828",
+  "doi": "https://doi.org/10.15389/agrobiology.2017.5.1030eng",
+  "title": "METABOLITES WITH ANTIOXIDANT AND PROTECTIVE FUNCTIONS FROM LEAVES OF VEGETABLE AMARANTH (Amaranthus tricolor L.)",
+  "display_name": "METABOLITES WITH ANTIOXIDANT AND PROTECTIVE FUNCTIONS FROM LEAVES OF VEGETABLE AMARANTH (Amaranthus tricolor L.)",
+  "publication_year": 2017,
+  "publication_date": "2017-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2768017828",
+    "doi": "https://doi.org/10.15389/agrobiology.2017.5.1030eng",
+    "mag": "2768017828"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.15389/agrobiology.2017.5.1030eng",
+    "pdf_url": "http://www.agrobiology.ru/articles/5-2017gins.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210200008",
+      "display_name": "Sel skokhozyaistvennaya Biologiya",
+      "issn_l": "0131-6397",
+      "issn": [
+        "0131-6397",
+        "2313-4836"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4360969347",
+      "host_organization_name": "Russian Academy of Agricultural Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4360969347"
+      ],
+      "host_organization_lineage_names": [
+        "Russian Academy of Agricultural Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "http://www.agrobiology.ru/articles/5-2017gins.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5075855378",
+        "display_name": "\u041c. \u0421. \u0413\u0438\u043d\u0441",
+        "orcid": "https://orcid.org/0000-0001-5995-2696"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210162935",
+          "display_name": "Federal Agency for Scientific Organizations",
+          "ror": "https://ror.org/05bvxn785",
+          "country_code": "RU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M.S. Gins",
+      "raw_affiliation_strings": [
+        "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,",
+          "institution_ids": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045622420",
+        "display_name": "V.K. Gins",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210162935",
+          "display_name": "Federal Agency for Scientific Organizations",
+          "ror": "https://ror.org/05bvxn785",
+          "country_code": "RU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "V.K. Gins",
+      "raw_affiliation_strings": [
+        "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,",
+          "institution_ids": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041126352",
+        "display_name": "\u0421 \u041c \u041c\u043e\u0442\u044b\u043b\u0435\u0432\u0430",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S.M. Motyleva",
+      "raw_affiliation_strings": [
+        "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035223281",
+        "display_name": "\u0418. \u041c. \u041a\u0443\u043b\u0438\u043a\u043e\u0432",
+        "orcid": "https://orcid.org/0000-0001-6843-4866"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "I.M. Kulikov",
+      "raw_affiliation_strings": [
+        "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108657758",
+        "display_name": "\u0421. \u041c. \u041c\u0435\u0434\u0432\u0435\u0434\u0435\u0432",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S.M. Medvedev",
+      "raw_affiliation_strings": [
+        "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019004299",
+        "display_name": "\u0412. \u0424. \u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043e\u0432",
+        "orcid": "https://orcid.org/0000-0001-9522-8072"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210162935",
+          "display_name": "Federal Agency for Scientific Organizations",
+          "ror": "https://ror.org/05bvxn785",
+          "country_code": "RU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "V.F. Pivovarov",
+      "raw_affiliation_strings": [
+        "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Federal Research Center for Vegetable Growing, Federal Agency of Scientific Organizations, 14, ul. Selektsion-naya,",
+          "institution_ids": [
+            "https://openalex.org/I4210162935"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5037273697",
+        "display_name": "\u041c. \u0415. \u041c\u0435\u0440\u0442\u0432\u0438\u0449\u0435\u0432\u0430",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096051",
+          "display_name": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery",
+          "ror": "https://ror.org/00sn3eq47",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M.E. Mertvishcheva",
+      "raw_affiliation_strings": [
+        "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "All-Russian Horticultural Institute for Breeding, Agrotechnology and Nursery, Federal Agency of Scientific Organiza-tions, 4, ul. Zagor'evskaya, Moscow, 115598 Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096051"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.888,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 11,
+  "citation_normalized_percentile": {
+    "value": 0.866985,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 85,
+    "max": 86
+  },
+  "biblio": {
+    "volume": "52",
+    "issue": "5",
+    "first_page": "1030",
+    "last_page": "1040"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12403",
+    "display_name": "Seed and Plant Biochemistry",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12403",
+      "display_name": "Seed and Plant Biochemistry",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11140",
+      "display_name": "Natural Antidiabetic Agents Studies",
+      "score": 0.9844,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12721",
+      "display_name": "Moringa oleifera research and applications",
+      "score": 0.9807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/amaranthaceae",
+      "display_name": "Amaranthaceae",
+      "score": 0.53021556
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781052702",
+      "wikidata": "https://www.wikidata.org/wiki/Q421074",
+      "display_name": "Amaranth",
+      "level": 2,
+      "score": 0.9729512
+    },
+    {
+      "id": "https://openalex.org/C2778004101",
+      "wikidata": "https://www.wikidata.org/wiki/Q133948",
+      "display_name": "Antioxidant",
+      "level": 2,
+      "score": 0.6718029
+    },
+    {
+      "id": "https://openalex.org/C2780590819",
+      "wikidata": "https://www.wikidata.org/wiki/Q155931",
+      "display_name": "Amaranthaceae",
+      "level": 2,
+      "score": 0.53021556
+    },
+    {
+      "id": "https://openalex.org/C556039675",
+      "wikidata": "https://www.wikidata.org/wiki/Q771035",
+      "display_name": "Traditional medicine",
+      "level": 1,
+      "score": 0.52242655
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.43181956
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.39931652
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.38753527
+    },
+    {
+      "id": "https://openalex.org/C31903555",
+      "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+      "display_name": "Food science",
+      "level": 1,
+      "score": 0.33974183
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.21419322
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.13125789
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.15389/agrobiology.2017.5.1030eng",
+      "pdf_url": "http://www.agrobiology.ru/articles/5-2017gins.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210200008",
+        "display_name": "Sel skokhozyaistvennaya Biologiya",
+        "issn_l": "0131-6397",
+        "issn": [
+          "0131-6397",
+          "2313-4836"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4360969347",
+        "host_organization_name": "Russian Academy of Agricultural Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4360969347"
+        ],
+        "host_organization_lineage_names": [
+          "Russian Academy of Agricultural Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.15389/agrobiology.2017.5.1030eng",
+    "pdf_url": "http://www.agrobiology.ru/articles/5-2017gins.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210200008",
+      "display_name": "Sel skokhozyaistvennaya Biologiya",
+      "issn_l": "0131-6397",
+      "issn": [
+        "0131-6397",
+        "2313-4836"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4360969347",
+      "host_organization_name": "Russian Academy of Agricultural Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4360969347"
+      ],
+      "host_organization_lineage_names": [
+        "Russian Academy of Agricultural Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/2",
+      "display_name": "Zero hunger",
+      "score": 0.73
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 8,
+  "referenced_works": [
+    "https://openalex.org/W2007086411",
+    "https://openalex.org/W2026529720",
+    "https://openalex.org/W2088006945",
+    "https://openalex.org/W2088151065",
+    "https://openalex.org/W2116290781",
+    "https://openalex.org/W2323344297",
+    "https://openalex.org/W2615658599",
+    "https://openalex.org/W2624810329"
+  ],
+  "related_works": [
+    "https://openalex.org/W4211101528",
+    "https://openalex.org/W3127695086",
+    "https://openalex.org/W2790765276",
+    "https://openalex.org/W2759047099",
+    "https://openalex.org/W2727653437",
+    "https://openalex.org/W2337068092",
+    "https://openalex.org/W2201919264",
+    "https://openalex.org/W2048354910",
+    "https://openalex.org/W1932963486",
+    "https://openalex.org/W135550293"
+  ],
+  "abstract_inverted_index": {
+    "Antioxidant": [
+      0
+    ],
+    "metabolites": [
+      1,
+      37
+    ],
+    "of": [
+      2,
+      12,
+      19,
+      34,
+      39
+    ],
+    "plant": [
+      3
+    ],
+    "origin": [
+      4
+    ],
+    "are": [
+      5,
+      29
+    ],
+    "able": [
+      6
+    ],
+    "to": [
+      7,
+      42,
+      48
+    ],
+    "regulate": [
+      8
+    ],
+    "many": [
+      9
+    ],
+    "physiological": [
+      10
+    ],
+    "functions": [
+      11
+    ],
+    "the": [
+      13,
+      17,
+      30
+    ],
+    "body": [
+      14
+    ],
+    "and": [
+      15,
+      58
+    ],
+    "reduce": [
+      16
+    ],
+    "risk": [
+      18
+    ],
+    "developing": [
+      20
+    ],
+    "chronic": [
+      21
+    ],
+    "diseases": [
+      22
+    ],
+    "caused": [
+      23
+    ],
+    "by": [
+      24,
+      63
+    ],
+    "free": [
+      25
+    ],
+    "radical": [
+      26
+    ],
+    "oxidation.Vegetable": [
+      27
+    ],
+    "plants": [
+      28
+    ],
+    "most": [
+      31
+    ],
+    "affordable": [
+      32
+    ],
+    "source": [
+      33
+    ],
+    "essential": [
+      35
+    ],
+    "antioxidant": [
+      36
+    ],
+    "lack": [
+      38
+    ],
+    "which": [
+      40
+    ],
+    "leads": [
+      41
+    ],
+    "a": [
+      43,
+      55
+    ],
+    "sharp": [
+      44
+    ],
+    "decrease": [
+      45
+    ],
+    "in": [
+      46
+    ],
+    "resistance": [
+      47
+    ],
+    "environmental": [
+      49
+    ],
+    "stresses.Amaranth": [
+      50
+    ],
+    "(Amaranthus": [
+      51
+    ],
+    "tricolor": [
+      52
+    ],
+    "L.)": [
+      53
+    ],
+    "is": [
+      54
+    ],
+    "promising": [
+      56
+    ],
+    "food": [
+      57
+    ],
+    "medicinal": [
+      59
+    ],
+    "plant.Variety": [
+      60
+    ],
+    "Valentina": [
+      61
+    ],
+    "(originated": [
+      62
+    ],
+    "V.": [
+      64
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2768017828",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-21T10:17:12.465217",
+  "created_date": "2017-11-17"
+}

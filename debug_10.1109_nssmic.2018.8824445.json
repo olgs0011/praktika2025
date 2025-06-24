@@ -1,0 +1,871 @@
+{
+  "id": "https://openalex.org/W2971456871",
+  "doi": "https://doi.org/10.1109/nssmic.2018.8824445",
+  "title": "A New-Type Silicon Photomultiplier with Wide Dynamic Range for Effective Detecting of Short Light Pulses in Analog Mode",
+  "display_name": "A New-Type Silicon Photomultiplier with Wide Dynamic Range for Effective Detecting of Short Light Pulses in Analog Mode",
+  "publication_year": 2018,
+  "publication_date": "2018-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2971456871",
+    "doi": "https://doi.org/10.1109/nssmic.2018.8824445",
+    "mag": "2971456871"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/nssmic.2018.8824445",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "proceedings-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5062766010",
+        "display_name": "D. A. Shushakov",
+        "orcid": "https://orcid.org/0000-0001-9583-9279"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118517470",
+          "display_name": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+          "ror": "https://ror.org/01jkd3546",
+          "country_code": "RU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118517470",
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I2800498218",
+            "https://openalex.org/I4210096333"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. A. Shushakov",
+      "raw_affiliation_strings": [
+        "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I118517470"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090544700",
+        "display_name": "\u0421. \u0412. \u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432",
+        "orcid": "https://orcid.org/0000-0002-1975-6997"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118517470",
+          "display_name": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+          "ror": "https://ror.org/01jkd3546",
+          "country_code": "RU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118517470",
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I2800498218",
+            "https://openalex.org/I4210096333"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. V. Bogdanov",
+      "raw_affiliation_strings": [
+        "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I118517470"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002678544",
+        "display_name": "N. A. Kolobov",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. A. Kolobov",
+      "raw_affiliation_strings": [
+        "DEPHAN LLC., Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DEPHAN LLC., Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059907827",
+        "display_name": "E. V. Levin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. V. Levin",
+      "raw_affiliation_strings": [
+        "DEPHAN LLC., Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DEPHAN LLC., Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060819125",
+        "display_name": "Y. I. Pozdnyakov",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210139586",
+          "display_name": "Russian Quantum Center",
+          "ror": "https://ror.org/03v8t4025",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210139586"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y. I. Pozdnyakov",
+      "raw_affiliation_strings": [
+        "Russian Quantum Center, Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Russian Quantum Center, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210139586"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111732466",
+        "display_name": "Vitaly E. Shubin",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118517470",
+          "display_name": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+          "ror": "https://ror.org/01jkd3546",
+          "country_code": "RU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118517470",
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I2800498218",
+            "https://openalex.org/I4210096333"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "V. E. Shubin",
+      "raw_affiliation_strings": [
+        "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I118517470"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109408394",
+        "display_name": "K. Sitarsky",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118517470",
+          "display_name": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+          "ror": "https://ror.org/01jkd3546",
+          "country_code": "RU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118517470",
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I2800498218",
+            "https://openalex.org/I4210096333"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K. Yu. Sitarsky",
+      "raw_affiliation_strings": [
+        "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Russian Academy of Sciences, Solid State Physics Division, P. N. Lebedev Physical Institute, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I118517470"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059733162",
+        "display_name": "R. A. Torgovnikov",
+        "orcid": "https://orcid.org/0000-0002-1364-2518"
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. A. Torgovnikov",
+      "raw_affiliation_strings": [
+        "DEPHAN LLC., Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DEPHAN LLC., Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113879560",
+        "display_name": "Timophey Shpakovskiy",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T. V. Shpakovskiy",
+      "raw_affiliation_strings": [
+        "DEPHAN LLC., Moscow, Russia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DEPHAN LLC., Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.0,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 0,
+    "max": 61
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "3"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11216",
+    "display_name": "Radiation Detection and Scintillator Technologies",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3108",
+      "display_name": "Radiation"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11216",
+      "display_name": "Radiation Detection and Scintillator Technologies",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12153",
+      "display_name": "Advanced Optical Sensing Technologies",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11949",
+      "display_name": "Nuclear Physics and Applications",
+      "score": 0.9967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/silicon-photomultiplier",
+      "display_name": "Silicon Photomultiplier",
+      "score": 0.7792593
+    },
+    {
+      "id": "https://openalex.org/keywords/wide-dynamic-range",
+      "display_name": "Wide dynamic range",
+      "score": 0.5070703
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.46308404
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C104335537",
+      "wikidata": "https://www.wikidata.org/wiki/Q1085747",
+      "display_name": "Silicon photomultiplier",
+      "level": 4,
+      "score": 0.7792593
+    },
+    {
+      "id": "https://openalex.org/C113879476",
+      "wikidata": "https://www.wikidata.org/wiki/Q61897384",
+      "display_name": "Photomultiplier",
+      "level": 3,
+      "score": 0.71535134
+    },
+    {
+      "id": "https://openalex.org/C94915269",
+      "wikidata": "https://www.wikidata.org/wiki/Q1834857",
+      "display_name": "Detector",
+      "level": 2,
+      "score": 0.6770955
+    },
+    {
+      "id": "https://openalex.org/C87133666",
+      "wikidata": "https://www.wikidata.org/wiki/Q1161699",
+      "display_name": "Dynamic range",
+      "level": 2,
+      "score": 0.656666
+    },
+    {
+      "id": "https://openalex.org/C178889773",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316011",
+      "display_name": "Responsivity",
+      "level": 3,
+      "score": 0.63223517
+    },
+    {
+      "id": "https://openalex.org/C20788544",
+      "wikidata": "https://www.wikidata.org/wiki/Q467054",
+      "display_name": "Photonics",
+      "level": 2,
+      "score": 0.54625857
+    },
+    {
+      "id": "https://openalex.org/C520434653",
+      "wikidata": "https://www.wikidata.org/wiki/Q38867",
+      "display_name": "Laser",
+      "level": 2,
+      "score": 0.542438
+    },
+    {
+      "id": "https://openalex.org/C49040817",
+      "wikidata": "https://www.wikidata.org/wiki/Q193091",
+      "display_name": "Optoelectronics",
+      "level": 1,
+      "score": 0.5327834
+    },
+    {
+      "id": "https://openalex.org/C2776179129",
+      "wikidata": "https://www.wikidata.org/wiki/Q7998640",
+      "display_name": "Wide dynamic range",
+      "level": 2,
+      "score": 0.5070703
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.50440013
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.49187946
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.46308404
+    },
+    {
+      "id": "https://openalex.org/C23125352",
+      "wikidata": "https://www.wikidata.org/wiki/Q210765",
+      "display_name": "Photodetector",
+      "level": 2,
+      "score": 0.43666804
+    },
+    {
+      "id": "https://openalex.org/C21200559",
+      "wikidata": "https://www.wikidata.org/wiki/Q7451068",
+      "display_name": "Sensitivity (control systems)",
+      "level": 2,
+      "score": 0.41986862
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.29758614
+    },
+    {
+      "id": "https://openalex.org/C161694136",
+      "wikidata": "https://www.wikidata.org/wiki/Q910990",
+      "display_name": "Scintillator",
+      "level": 3,
+      "score": 0.22340319
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.13021272
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.12421036
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.062114775
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/nssmic.2018.8824445",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W2128365024",
+    "https://openalex.org/W2537979293",
+    "https://openalex.org/W2789585313",
+    "https://openalex.org/W2899827669"
+  ],
+  "related_works": [
+    "https://openalex.org/W785445970",
+    "https://openalex.org/W4385733096",
+    "https://openalex.org/W3202881379",
+    "https://openalex.org/W2160828022",
+    "https://openalex.org/W2143589838",
+    "https://openalex.org/W2053377655",
+    "https://openalex.org/W2041213051",
+    "https://openalex.org/W2011470011",
+    "https://openalex.org/W1991661439",
+    "https://openalex.org/W1986962734"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      54
+    ],
+    "new-type": [
+      1
+    ],
+    "silicon": [
+      2
+    ],
+    "photomultiplier": [
+      3
+    ],
+    "with": [
+      4,
+      32
+    ],
+    "high": [
+      5,
+      82
+    ],
+    "density": [
+      6
+    ],
+    "of": [
+      7,
+      17,
+      20,
+      51,
+      80
+    ],
+    "cells": [
+      8
+    ],
+    "(HD-SiPM)": [
+      9
+    ],
+    "was": [
+      10
+    ],
+    "developed": [
+      11
+    ],
+    "by": [
+      12,
+      41
+    ],
+    "DEPHAN": [
+      13
+    ],
+    "for": [
+      14,
+      64
+    ],
+    "the": [
+      15,
+      58
+    ],
+    "task": [
+      16
+    ],
+    "analog": [
+      18
+    ],
+    "detecting": [
+      19,
+      71
+    ],
+    "short": [
+      21,
+      42
+    ],
+    "light": [
+      22
+    ],
+    "pulses.": [
+      23
+    ],
+    "In": [
+      24
+    ],
+    "this": [
+      25
+    ],
+    "work": [
+      26
+    ],
+    "we": [
+      27
+    ],
+    "have": [
+      28
+    ],
+    "tested": [
+      29
+    ],
+    "and": [
+      30,
+      38,
+      68,
+      84
+    ],
+    "compared": [
+      31
+    ],
+    "known": [
+      33
+    ],
+    "references": [
+      34
+    ],
+    "its": [
+      35
+    ],
+    "responsivity,": [
+      36
+    ],
+    "amplitude": [
+      37
+    ],
+    "time": [
+      39
+    ],
+    "resolution": [
+      40
+    ],
+    "laser": [
+      43
+    ],
+    "pulses": [
+      44
+    ],
+    "(442": [
+      45
+    ],
+    "nm)": [
+      46
+    ],
+    "in": [
+      47,
+      73
+    ],
+    "a": [
+      48,
+      88
+    ],
+    "wide": [
+      49
+    ],
+    "range": [
+      50,
+      86
+    ],
+    "signal": [
+      52
+    ],
+    "intensities.": [
+      53
+    ],
+    "results": [
+      55
+    ],
+    "demonstrate,": [
+      56
+    ],
+    "that": [
+      57
+    ],
+    "new": [
+      59
+    ],
+    "detector": [
+      60,
+      90
+    ],
+    "could": [
+      61
+    ],
+    "be": [
+      62
+    ],
+    "interesting": [
+      63
+    ],
+    "Hi-Res": [
+      65
+    ],
+    "Medical": [
+      66
+    ],
+    "Imaging": [
+      67
+    ],
+    "other": [
+      69
+    ],
+    "pulse": [
+      70
+    ],
+    "applications": [
+      72
+    ],
+    "nuclear": [
+      74
+    ],
+    "science,": [
+      75
+    ],
+    "especially": [
+      76
+    ],
+    "those": [
+      77
+    ],
+    "requiring": [
+      78
+    ],
+    "combination": [
+      79
+    ],
+    "sensitivity,": [
+      81
+    ],
+    "speed": [
+      83
+    ],
+    "dynamic": [
+      85
+    ],
+    "from": [
+      87
+    ],
+    "small-area": [
+      89
+    ],
+    "or": [
+      91
+    ],
+    "an": [
+      92
+    ],
+    "array": [
+      93
+    ],
+    "element.": [
+      94
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2971456871",
+  "counts_by_year": [],
+  "updated_date": "2025-06-10T10:41:04.224730",
+  "created_date": "2019-09-12"
+}
