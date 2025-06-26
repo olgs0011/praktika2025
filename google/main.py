@@ -1,100 +1,89 @@
-from typing import Optional, Dict, List, Any
-from scholar_parser import get_scholar_data
-from database import get_scopus_ids, connect_to_scopus_db, get_publications_batch, save_last_processed_id
-from utils import log_message
+from typing import List, Dict, Optional  # Добавляем импорт
+import os
+import json
 import time
 import random
-import json
-from datetime import datetime
-import os
+from selenium_scholar import get_scholar_data
+from database import (
+    connect_to_scopus_db,
+    get_publications_batch,
+    get_scopus_ids,
+    save_last_processed_id
+)
+from utils import log_message
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
-def load_last_processed_id() -> int:
-    """Загружает последний обработанный ID из файла"""
+def save_to_json(results: List[Dict], filename: str = "results.json"):
+    """Сохранение результатов в JSON файл"""
     try:
-        if os.path.exists('last_processed.txt'):
-            with open('last_processed.txt', 'r') as f:
-                content = f.read().strip()
-                return int(content) if content else 1
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+        log_message(f"Результаты сохранены в {filename}", "SUCCESS")
     except Exception as e:
-        log_message(f"Ошибка загрузки last_processed_id: {str(e)}", "ERROR")
-    return 1
+        log_message(f"Ошибка сохранения JSON: {str(e)}", "ERROR")
 
 
-def process_publications(conn, start_id: int) -> List[Dict[str, Any]]:
-    """Обрабатывает публикации и возвращает результаты"""
+def process_publication(conn, pub: Dict) -> Optional[Dict]:
+    """Обработка одной публикации"""
+    doi = pub.get('doi')
+    if not doi:
+        log_message(f"Пропуск публикации {pub['id']} - нет DOI", "WARNING")
+        return None
+
+    log_message(f"Обработка ID: {pub['id']}, DOI: {doi}", "DEBUG")
+
+    scholar_data = get_scholar_data(doi)
+    if not scholar_data:
+        return None
+
+    cited_by_ids = get_scopus_ids(conn, scholar_data.get('cited_by', []))
+    cites_ids = get_scopus_ids(conn, scholar_data.get('references', []))
+
+    return {
+        'query_id': pub['id'],
+        'cited_by': cited_by_ids,
+        'cites': cites_ids
+    }
+
+
+def main():
+    """Основной рабочий процесс"""
+    log_message("Запуск парсера Scopus -> Google Scholar", "INFO")
+    conn = connect_to_scopus_db()
+    if not conn:
+        return
+
     results = []
-    last_id = start_id
-
-    publications = get_publications_batch(conn, start_id=last_id)
-    if not publications:
-        log_message("Не найдено публикаций для обработки", "INFO")
-        return results
-
-    for pub in publications:
-        try:
-            log_message(f"Обрабатываю публикацию ID: {pub['id']}, DOI: {pub['doi']}", "DEBUG")
-            last_id = int(pub['id'])
-
-            scholar_data = get_scholar_data(pub['doi'])
-            if scholar_data is None:
-                log_message(f"Публикация {pub['id']} не найдена в Google Scholar, пропускаем", "INFO")
-                save_last_processed_id(last_id)
-                time.sleep(random.uniform(1, 3))
-                continue
-
-            cited_by_ids = get_scopus_ids(conn, scholar_data['cited_by'])
-            cites_ids = get_scopus_ids(conn, scholar_data['references'])
-
-            results.append({
-                'scopus_id': pub['id'],
-                'doi': pub['doi'],
-                'cited_by': cited_by_ids,
-                'cites': cites_ids,
-                'scholar_data': scholar_data
-            })
-
-            save_last_processed_id(last_id)
-            time.sleep(random.uniform(1, 3))
-
-        except Exception as e:
-            log_message(f"Ошибка обработки публикации {pub.get('id', 'N/A')}: {str(e)}", "ERROR")
-            continue
-
-    return results
-
-
-def main() -> None:
-    """Основная функция выполнения"""
-    log_message("Запуск обработки Scopus -> Google Scholar", "INFO")
-
-    conn = None
     try:
-        conn = connect_to_scopus_db()
-        if not conn:
-            log_message("Не удалось установить соединение с БД", "ERROR")
-            return
+        last_id = 1
+        while True:
+            publications = get_publications_batch(conn, start_id=last_id)
+            if not publications:
+                log_message("Нет новых публикаций для обработки", "INFO")
+                break
 
-        last_id = load_last_processed_id()
-        log_message(f"Начинаем обработку с ID: {last_id}", "INFO")
+            for pub in publications:
+                result = process_publication(conn, pub)
+                if result:
+                    results.append(result)
+                    save_last_processed_id(int(pub['id']))
+                    last_id = int(pub['id'])
+                    save_to_json(results)
 
-        results = process_publications(conn, last_id)
-        log_message(f"Обработано публикаций: {len(results)}", "INFO")
+                delay = random.uniform(30, 60)
+                time.sleep(delay)
 
-        if results:
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            filename = f'results_{timestamp}.json'
-
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(results, f, indent=2, ensure_ascii=False)
-            log_message(f"Результаты сохранены в {filename}", "SUCCESS")
-
+    except KeyboardInterrupt:
+        log_message("Остановлено пользователем", "INFO")
     except Exception as e:
-        log_message(f"Фатальная ошибка: {str(e)}", "ERROR")
+        log_message(f"Ошибка: {str(e)}", "ERROR")
     finally:
-        if conn:
-            conn.close()
-            log_message("Соединение закрыто", "INFO")
+        conn.close()
+        save_to_json(results)
+        log_message("Обработка завершена", "INFO")
 
 
 if __name__ == "__main__":
