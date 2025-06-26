@@ -1,59 +1,77 @@
 import psycopg2
-from typing import Optional, List, Dict, Set
-from utils import log_message
-import os
+from psycopg2 import extensions
 from dotenv import load_dotenv
+import os
+from typing import Dict, List, Optional
+from utils import log_message
 
 load_dotenv()
 
-DB_CONFIG = {
-    "dbname": os.getenv("DB_NAME", "scopus"),
-    "user": os.getenv("DB_USER", "postgres"),
-    "password": os.getenv("DB_PASSWORD", "123456789"),
-    "host": os.getenv("DB_HOST", "localhost"),
-    "port": os.getenv("DB_PORT", "5432"),
-}
-BATCH_SIZE = int(os.getenv("BATCH_SIZE", 5))
+BATCH_SIZE = int(os.getenv('BATCH_SIZE', 5))
 
-def connect_to_scopus_db() -> Optional[psycopg2.extensions.connection]:
-    """Подключение к базе данных Scopus"""
+
+def connect_to_scopus_db():
+    """Устанавливает соединение с базой данных"""
     try:
-        conn = psycopg2.connect(**DB_CONFIG)
-        conn.autocommit = False
-        log_message("Успешное подключение к БД Scopus")
+        conn = psycopg2.connect(
+            dbname=os.getenv('DB_NAME'),
+            user=os.getenv('DB_USER'),
+            password=os.getenv('DB_PASSWORD'),
+            host=os.getenv('DB_HOST'),
+            port=os.getenv('DB_PORT')
+        )
+        log_message("Успешное подключение к БД", "SUCCESS")
         return conn
     except Exception as e:
-        log_message(f"Ошибка подключения: {str(e)}", "ERROR")
+        log_message(f"Ошибка подключения к БД: {str(e)}", "ERROR")
         return None
 
-def get_publications_batch(conn: psycopg2.extensions.connection, limit: int = BATCH_SIZE) -> List[Dict[str, str]]:
-    """Получение пакета публикаций из Scopus"""
-    with conn.cursor() as cursor:
-        cursor.execute("""
-            SELECT id, doi FROM publication 
-            WHERE doi IS NOT NULL AND doi != ''
-            ORDER BY id
-            LIMIT %s;
-        """, (limit,))
-        return [{"id": row[0], "doi": row[1]} for row in cursor.fetchall()]
+
+def get_publications_batch(conn, limit=BATCH_SIZE):
+    """Полностью переработанная функция с максимальной защитой"""
+    if not conn or conn.closed:
+        log_message("Нет соединения с БД или оно закрыто", "ERROR")
+        return []
+
+    try:
+        with conn.cursor() as cursor:
+            # Упрощенный запрос без условий для теста
+            cursor.execute("SELECT id::text, doi::text FROM publication LIMIT %s", (limit,))
+
+            results = []
+            for record in cursor:
+                try:
+                    # Самый безопасный способ обработки
+                    record_dict = dict(zip([desc[0] for desc in cursor.description], record))
+                    if 'id' in record_dict and 'doi' in record_dict:
+                        results.append({
+                            'id': str(record_dict['id']),
+                            'doi': str(record_dict['doi'])
+                        })
+                except Exception as e:
+                    log_message(f"Ошибка обработки записи: {str(e)}", "DEBUG")
+                    continue
+
+            log_message(f"Получено {len(results)} записей", "INFO")
+            return results
+
+    except Exception as e:
+        log_message(f"Критическая ошибка при запросе: {str(e)}", "ERROR")
+        return []
 
 def get_scopus_ids(conn: psycopg2.extensions.connection, dois: List[str]) -> List[str]:
-    """Поиск Scopus ID по списку DOI с нормализацией"""
+    """Находит Scopus ID по списку DOI"""
     if not dois:
         return []
 
     try:
         with conn.cursor() as cursor:
-            # Нормализуем DOI (удаляем URL-часть)
-            normalized_dois = [d.split('doi.org/')[-1].split('?')[0] for d in dois if '10.' in d]
-
             cursor.execute("""
-                SELECT id FROM publication 
-                WHERE doi = ANY(%s) 
-                OR doi LIKE ANY(%s);
-            """, (normalized_dois, [f'%{d}%' for d in normalized_dois]))
-
+                SELECT id 
+                FROM publication 
+                WHERE doi = ANY(%s)
+            """, (dois,))
             return [row[0] for row in cursor.fetchall()]
     except Exception as e:
-        log_message(f"Ошибка поиска в Scopus: {str(e)}", "ERROR")
+        log_message(f"Ошибка поиска Scopus ID: {str(e)}", "ERROR")
         return []
