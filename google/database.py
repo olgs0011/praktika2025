@@ -1,18 +1,20 @@
 import psycopg2
 from psycopg2 import sql
-from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT  # Добавьте этот импорт
 from dotenv import load_dotenv
 import os
-from typing import Dict, List, Optional, Union
+from typing import List, Dict, Any, Union
 from utils import log_message
 
 load_dotenv()
 
-BATCH_SIZE = int(os.getenv('BATCH_SIZE', 50))
+# Константы
+BATCH_SIZE = 5
+DB_CONNECT_TIMEOUT = 10
 
 
 def connect_to_scopus_db():
-    """Устанавливает соединение с базой данных с таймаутом"""
+    """Подключение к базе данных с обработкой ошибок"""
     try:
         conn = psycopg2.connect(
             dbname=os.getenv('DB_NAME'),
@@ -20,7 +22,7 @@ def connect_to_scopus_db():
             password=os.getenv('DB_PASSWORD'),
             host=os.getenv('DB_HOST'),
             port=os.getenv('DB_PORT'),
-            connect_timeout=10
+            connect_timeout=DB_CONNECT_TIMEOUT
         )
         conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
         log_message("Успешное подключение к БД", "SUCCESS")
@@ -31,21 +33,20 @@ def connect_to_scopus_db():
 
 
 def get_publications_batch(conn, start_id: int = 1, limit: int = BATCH_SIZE) -> List[Dict[str, Union[str, int]]]:
-    """Получает публикации, начиная с определённого ID"""
+    """Получение пакета публикаций"""
     if not conn or conn.closed:
-        log_message("Нет соединения с БД или оно закрыто", "ERROR")
+        log_message("Соединение с БД не установлено", "ERROR")
         return []
 
     try:
         with conn.cursor() as cursor:
-            query = """
-                SELECT id, doi 
+            cursor.execute("""
+                SELECT id::text, doi::text 
                 FROM publication 
-                WHERE id >= %s AND doi IS NOT NULL AND doi != ''
+                WHERE id >= %s AND doi IS NOT NULL
                 ORDER BY id
                 LIMIT %s
-            """
-            cursor.execute(query, (start_id, limit))
+            """, (start_id, limit))
 
             return [{
                 'id': str(row[0]),
@@ -57,28 +58,27 @@ def get_publications_batch(conn, start_id: int = 1, limit: int = BATCH_SIZE) -> 
 
 
 def get_scopus_ids(conn, dois: List[str]) -> List[str]:
-    """Находит Scopus ID по списку DOI с пакетной обработкой"""
+    """Получение scopus_id по DOI"""
     if not dois:
         return []
 
     try:
         with conn.cursor() as cursor:
-            query = sql.SQL("""
-                SELECT id 
+            cursor.execute("""
+                SELECT id::text 
                 FROM publication 
                 WHERE doi = ANY(%s)
-            """)
-            cursor.execute(query, (dois,))
+            """, (dois,))
             return [str(row[0]) for row in cursor.fetchall()]
     except Exception as e:
-        log_message(f"Ошибка поиска Scopus ID: {str(e)}", "ERROR")
+        log_message(f"Ошибка поиска scopus_id: {str(e)}", "ERROR")
         return []
 
 
 def save_last_processed_id(last_id: int) -> None:
-    """Сохраняет последний обработанный ID в файл"""
+    """Сохранение последнего обработанного ID"""
     try:
         with open('last_processed.txt', 'w') as f:
             f.write(str(last_id))
     except Exception as e:
-        log_message(f"Ошибка сохранения последнего ID: {str(e)}", "ERROR")
+        log_message(f"Ошибка сохранения last_processed_id: {str(e)}", "ERROR")
